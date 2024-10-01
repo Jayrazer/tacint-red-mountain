@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "Desert Eagle"
-SWEP.Category = "Tactical Intervention"
+SWEP.Category = "Tactical Intervention (Extras)"
 
 SWEP.Description = "Large magnum pistol. Unwieldly, impractical, but extremely powerful."
 
