@@ -1,3 +1,4 @@
+ATT.Ignore = true
 ATT.PrintName = "Blind-Cam"
 ATT.FullName = "Tactical Blindspot Targeting Camera"
 ATT.Icon = Material("entities/tacrp_att_tac_extras_cornershot.png", "mips smooth")
