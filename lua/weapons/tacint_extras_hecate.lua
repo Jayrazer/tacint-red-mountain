@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "Hécate II"
-SWEP.Category = "Tactical Intervention"
+SWEP.Category = "Tactical Intervention (Extras)"
 
 SWEP.Description = "Bolt-action anti-material rifle that offers great control given its high recoil."
 
@@ -163,7 +163,7 @@ SWEP.AnimationTranslationTable = {
     ["fire"] = {"shoot1", "shoot2"},
     ["blind_idle"] = "idle",
     ["blind_fire"] = "shoot1",
-    ["reload"] = "reload2",
+    ["reload"] = "reload",
 }
 
 // attachments
@@ -171,20 +171,20 @@ SWEP.AnimationTranslationTable = {
 SWEP.AttachmentElements = {
     ["optic"] = {
         BGs_VM = {
-            {1, 1}
+            {1, 2}
         },
         BGs_WM = {
-            {1, 1}
+            {1, 2}
         },
 		Mult_HipFireSpreadPenalty = 0.4,
 		Mult_MoveSpreadPenalty = 0.6,
     },
     ["irons"] = {
         BGs_VM = {
-            {2, 1}
+            {1, 1}
         },
         BGs_WM = {
-            {2, 1}
+            {1, 1}
         },
         Mult_HipFireSpreadPenalty = 0.05,
         Mult_CrouchSpreadPenalty = -0.025,
@@ -192,10 +192,10 @@ SWEP.AttachmentElements = {
     },
     ["tactical"] = {
         BGs_VM = {
-            {3, 1}
+            {2, 1}
         },
         BGs_WM = {
-            {3, 1}
+            {2, 1}
         },
     },
 }
@@ -209,7 +209,7 @@ SWEP.Attachments = {
         AttachSound = "tacint/weapons/optic_on.wav",
         DetachSound = "tacint/weapons/optic_off.wav",
         InstalledElements = {"optic"},
-        Pos_VM = Vector(-5.5, 0, 5),
+        Pos_VM = Vector(-5.8, 0, 5),
         Ang_VM = Angle(90, 0, 0),
         Pos_WM = Vector(0, 5.5, 2.2),
         Ang_WM = Angle(0, -90, 0),
@@ -222,8 +222,8 @@ SWEP.Attachments = {
         AttachSound = "tacint/weapons/flashlight_on.wav",
         DetachSound = "tacint/weapons/flashlight_off.wav",
         InstalledElements = {"tactical"},
-        Pos_VM = Vector(-2.25, 0, 20),
-        Ang_VM = Angle(90, 0, 180),
+        Pos_VM = Vector(-3.85, -1.5, 19.5),
+        Ang_VM = Angle(90, 0, -90),
         Pos_WM = Vector(0, 23.75, -2),
         Ang_WM = Angle(0, -90, 180),
     },
