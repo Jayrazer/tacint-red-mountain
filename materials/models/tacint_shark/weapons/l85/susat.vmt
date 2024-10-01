@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\tacint_shark\weapons\l85\susat"
+	"$bumpmap" "models\tacint_shark\weapons\l85\susat_normal"
+                "$phong" "0"
+                "$phongboost" "1"
+                "$phongfresnelranges" "[1 8 6]"
+                "$phongexponenttexture" "models\tacint_shark\weapons\l85\susat_spec"
+                "$phongalbedotint" "1"
+                "$halflambert" "1"
+}
+
