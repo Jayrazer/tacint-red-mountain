@@ -1,6 +1,6 @@
 ATT.PrintName = "Swing"
 ATT.FullName = "Knife Training"
-ATT.Icon = Material("entities/tacrp_att_acc_melee.png", "mips smooth")
+ATT.Icon = Material("entities/tacint_att_acc_melee.png", "mips smooth")
 ATT.Description = "Weapon training technique that icreases attacking speed."
 ATT.Pros = {"Increased attack speed"}
 ATT.Cons = {"Reduced handling"}
