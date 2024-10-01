@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "UMP45"
-SWEP.Category = "Tactical Intervention"
+SWEP.Category = "Tactical Intervention (Extras)"
 
 SWEP.Description = "Bulky SMG with high damage but a slow rate of fire."
 

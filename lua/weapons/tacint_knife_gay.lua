@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "Jackal Knife"
-SWEP.Category = "Tactical Intervention - Equipment"
+SWEP.Category = "Tactical Intervention (Equipment)"
 
 SWEP.Description = "Fancy collectors knife, not meant for combat but looks pretty gangster."
 

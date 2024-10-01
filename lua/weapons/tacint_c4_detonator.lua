@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "C4 Detonator"
-SWEP.Category = "Tactical Intervention - Equipment"
+SWEP.Category = "Tactical Intervention (Equipment)"
 
 SWEP.Description = "Remote detonation device that can trigger C4 charges (or other explosive devices) from a safe distance."
 

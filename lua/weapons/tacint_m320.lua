@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "M320"
-SWEP.Category = "Tactical Intervention - Equipment"
+SWEP.Category = "Tactical Intervention (Equipment)"
 
 SWEP.Description = "40mm grenade launcher capable of firing a variety of payloads. Fires further than a quick grenade can be thrown."
 

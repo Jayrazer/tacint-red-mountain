@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "G18C"
-SWEP.Category = "Tactical Intervention"
+SWEP.Category = "Tactical Intervention (Extras)"
 
 SWEP.Description = "Fully-automatic pistol that trades accuracy for a blistering-fast rate of fire."
 

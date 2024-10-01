@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "MP9A"
-SWEP.Category = "Tactical Intervention"
+SWEP.Category = "Tactical Intervention (Extras)"
 
 // Assets: https://gamebanana.com/mods/208831
 
@@ -229,4 +229,4 @@ end
 addsound("tacint_extras_mp9.remove_clip", path2 .. "clipout.mp3")
 addsound("tacint_extras_mp9.insert_clip", path2 .. "clipin.mp3")
 addsound("tacint_extras_mp9.bolt_action", path .. "bolt_action.wav")
-addsound("tacint_extras_mp9.forearm_deploy", "tacint/weapons/uzi/" .. "foldingstock_back.wav")
+addsound("tacint_extras_mp9.forearm_deploy", "tacint/weapons/uzi/uzi_foldingstock_back.wav")

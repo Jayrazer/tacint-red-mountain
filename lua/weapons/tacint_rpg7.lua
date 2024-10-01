@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "RPG-7"
-SWEP.Category = "Tactical Intervention - Equipment"
+SWEP.Category = "Tactical Intervention (Equipment)"
 
 SWEP.Description = "Soviet rocket launcher with a powerful explosion."
 
